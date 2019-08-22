@@ -1,6 +1,6 @@
 {
   "name": "@christian-slater/compiler",
-  "version": "2.0.0",
+  "version": "2.0.1-alpha.0+e7ded18",
   "description": "Compiler abstraction for christian-slater.",
   "main": "index.js",
   "repository": {
@@ -47,5 +47,5 @@
     "style-loader": "^0.20.3",
     "webpack": "^4.33.0"
   },
-  "gitHead": "29335070b734dca51406efe006aa5f277db46c22"
+  "gitHead": "e7ded1819b6a9f4ecc575cf7fa28133583e6fdd0"
 }

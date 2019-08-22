@@ -1,6 +1,6 @@
 {
   "name": "@christian-slater/theme",
-  "version": "2.0.0",
+  "version": "2.0.1-alpha.0+e7ded18",
   "scripts": {
     "start": "christian-slater watch",
     "build": "christian-slater build",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/christian-slater#readme",
   "devDependencies": {
-    "christian-slater": "^2.0.0"
+    "christian-slater": "^2.0.1-alpha.0+e7ded18"
   },
   "dependencies": {
     "choozy": "0.0.3",
@@ -27,5 +27,5 @@
     "svbstrate": "^4.1.1",
     "unfetch": "^4.1.0"
   },
-  "gitHead": "29335070b734dca51406efe006aa5f277db46c22"
+  "gitHead": "e7ded1819b6a9f4ecc575cf7fa28133583e6fdd0"
 }
