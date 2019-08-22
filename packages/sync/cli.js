@@ -9,11 +9,11 @@ const wait = require('w2t')
 const {
   logger,
   getConfig
-} = require('@christian-slater/util')
+} = require('@dwadwadwa/util')
 
 const pkg = require('./package.json')
 
-const log = logger('christian-slater')
+const log = logger('dwadwadwa')
 
 const prog = require('commander')
   .version(pkg.version)

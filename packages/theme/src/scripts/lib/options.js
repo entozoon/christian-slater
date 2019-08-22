@@ -14,9 +14,9 @@ export default function productSelection (node, opts) {
     options: []
   }
 
-  const selects = christian-slater.qsa(opts.select)
-  const radios = christian-slater.qsa(opts.radio)
-  const main = christian-slater.qs(opts.main)
+  const selects = dwadwadwa.qsa(opts.select)
+  const radios = dwadwadwa.qsa(opts.radio)
+  const main = dwadwadwa.qs(opts.main)
 
   if (!main || !main.length) throw 'data-option-main is missing'
   if (radios.length > 3) throw 'you have more than three radio groups'

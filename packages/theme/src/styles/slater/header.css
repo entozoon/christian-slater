@@ -1,6 +1,6 @@
-.christian-slater-header {
+.dwadwadwa-header {
 }
-.christian-slater-header__inner {
+.dwadwadwa-header__inner {
   border-bottom: 2px solid var(--black);
   height: 65px;
   @media (--600) {
@@ -12,7 +12,7 @@
  * a placeholder element to "naturally" fill the space
  * beneath a fixed nav
  */
-.christian-slater-header__spacer {
+.dwadwadwa-header__spacer {
   height: 65px;
   @media (--600) {
     height: 80px;

@@ -9,12 +9,12 @@ const download = require('download')
 const extract = require('extract-zip')
 const link = require('terminal-link')
 
-const sync = require('@christian-slater/sync')
+const sync = require('@dwadwadwa/sync')
 const {
   logger,
   abs,
   getConfig
-} = require('@christian-slater/util')
+} = require('@dwadwadwa/util')
 
 const pkg = require('./package.json')
 const createApp = require('./index.js')
@@ -25,7 +25,7 @@ const prog = require('commander')
   .option('-d, --debug', 'output some debugging logs')
   .option('-t, --theme <name>', 'specify a named theme from your config file')
 
-const log = logger('christian-slater')
+const log = logger('dwadwadwa')
 
 prog
   .command('watch')
@@ -125,8 +125,8 @@ prog
     const dir = abs(p)
     const reldir = dir.replace(process.cwd(), '')
     const tempfile = path.join(dir, 'temp.zip')
-    const release = `https://github.com/the-couch/christian-slater/archive/v${pkg.version}.zip`
-    const extracted = path.join(dir, `christian-slater-${pkg.version}`)
+    const release = `https://github.com/the-couch/dwadwadwa/archive/v${pkg.version}.zip`
+    const extracted = path.join(dir, `dwadwadwa-${pkg.version}`)
 
     log.info('initializing', reldir, true)
 
@@ -162,6 +162,6 @@ if (!process.argv.slice(2).length) {
   })
 } else {
   console.clear()
-  log.info(`christian-slater`, `v${pkg.version}\n`)
+  log.info(`dwadwadwa`, `v${pkg.version}\n`)
   prog.parse(process.argv)
 }

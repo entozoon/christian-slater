@@ -1,9 +1,9 @@
 import { component } from 'picoapp'
 
 export default component((node, ctx) => {
-  console.log('christian-slater-welcome mounted')
+  console.log('dwadwadwa-welcome mounted')
 
   return node => {
-    console.log('christian-slater-welcome unmounted')
+    console.log('dwadwadwa-welcome unmounted')
   }
 })

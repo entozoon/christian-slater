@@ -9,18 +9,18 @@ const link = require('terminal-link')
 /**
  * internal modules
  */
-const compiler = require('@christian-slater/compiler')
+const compiler = require('@dwadwadwa/compiler')
 const spaghetti = require('@friendsof/spaghetti')
-const sync = require('@christian-slater/sync')
+const sync = require('@dwadwadwa/sync')
 const {
   logger,
   match,
   sanitize,
   abs,
   fixPathSeparators
-} = require('@christian-slater/util')
+} = require('@dwadwadwa/util')
 
-const log = logger('christian-slater')
+const log = logger('dwadwadwa')
 
 function logStats (stats, opts = {}) {
   log.info('built', `in ${stats.duration}s\n${stats.assets.reduce((_, asset, i) => {

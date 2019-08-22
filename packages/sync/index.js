@@ -12,11 +12,11 @@ const {
   logger,
   abs,
   sanitize
-} = require('@christian-slater/util')
+} = require('@dwadwadwa/util')
 
 const pkg = require('./package.json')
 
-const log = logger('christian-slater')
+const log = logger('dwadwadwa')
 
 module.exports = function init (config) {
   if (!config.id) {
