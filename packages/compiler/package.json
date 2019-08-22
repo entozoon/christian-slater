@@ -1,6 +1,6 @@
 {
   "name": "@dwadwadwa/compiler",
-  "version": "2.0.2-alpha.0+1fa0168",
+  "version": "2.1.0",
   "description": "Compiler abstraction for dwadwadwa.",
   "main": "index.js",
   "repository": {
