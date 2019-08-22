@@ -1,6 +1,6 @@
 {
   "name": "@christian-slater/theme",
-  "version": "1.5.5",
+  "version": "2.0.0",
   "scripts": {
     "start": "christian-slater watch",
     "build": "christian-slater build",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/christian-slater#readme",
   "devDependencies": {
-    "christian-slater": "^1.5.5"
+    "christian-slater": "^2.0.0"
   },
   "dependencies": {
     "choozy": "0.0.3",

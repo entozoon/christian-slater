@@ -1,6 +1,6 @@
 {
   "name": "@christian-slater/compiler",
-  "version": "1.5.5",
+  "version": "2.0.0",
   "description": "Compiler abstraction for christian-slater.",
   "main": "index.js",
   "repository": {
