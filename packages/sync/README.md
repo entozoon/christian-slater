@@ -7,7 +7,7 @@ npm i @dwadwadwa/sync -g
 ```
 
 ## Getting Started
-Create a `dwadwadwa.config.js` file, and define one or more themes:
+Create a `slater.config.js` file, and define one or more themes:
 
 ```javascript
 module.exports = {

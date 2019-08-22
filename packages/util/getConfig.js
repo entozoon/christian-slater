@@ -12,10 +12,10 @@ const logger = require('./logger.js')
 const log = logger('dwadwadwa')
 
 module.exports = function getConfig (options) {
-  const configpath = abs(options.config || 'dwadwadwa.config.js')
+  const configpath = abs(options.config || 'slater.config.js')
 
   if (!fs.existsSync(configpath)) {
-    log.error(`looks like your config file (${options.config || 'dwadwadwa.config.js'}) is missing`)
+    log.error(`looks like your config file (${options.config || 'slater.config.js'}) is missing`)
     exit()
   }
 

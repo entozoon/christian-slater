@@ -60,7 +60,7 @@ Don't forget to install the dependencies.
 npm install
 ```
 
-You'll need to define one or more themes in the provided `dwadwadwa.config.js` file
+You'll need to define one or more themes in the provided `slater.config.js` file
 to deploy to, similar to a standard Shopify `config.yml` file.
 ```javascript
 module.exports = {
@@ -91,7 +91,7 @@ fit most existing projects.
 
 ### Themes
 dwadwadwa projects require themes to be defined in the
-`dwadwadwa.config.js`.
+`slater.config.js`.
 
 By default it looks for a theme called `development`:
 
