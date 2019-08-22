@@ -1,6 +1,6 @@
 import { picoapp } from 'picoapp'
 
-import slaterWelcome from '@/components/slater-welcome.js'
+import christian-slaterWelcome from '@/components/christian-slater-welcome.js'
 
 import header from '@/components/header.js'
 import productSelection from '@/components/product-selection.js'
@@ -15,7 +15,7 @@ const state = {
 }
 
 const components = {
-  slaterWelcome,
+  christian-slaterWelcome,
   accountLogin,
   header,
   productSelection,

@@ -22,21 +22,21 @@
 @import 'templates/collection.css';
 
 /**
- * slater demo
+ * christian-slater demo
  *
  * you might want to delete these
  *
  * or not, up to you
  */
-@import 'slater/code.css';
-@import 'slater/typography.css';
-@import 'slater/header.css';
-@import 'slater/footer.css';
-@import 'slater/welcome.css';
-@import 'slater/accounts.css';
-@import 'slater/product.css';
-@import 'slater/cart-drawer.css';
-@import 'slater/inputs.css';
+@import 'christian-slater/code.css';
+@import 'christian-slater/typography.css';
+@import 'christian-slater/header.css';
+@import 'christian-slater/footer.css';
+@import 'christian-slater/welcome.css';
+@import 'christian-slater/accounts.css';
+@import 'christian-slater/product.css';
+@import 'christian-slater/cart-drawer.css';
+@import 'christian-slater/inputs.css';
 
 #preview-bar-iframe, .none {
   display: none !important;

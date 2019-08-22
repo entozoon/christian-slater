@@ -1,21 +1,21 @@
 {
-  "name": "@slater/theme",
+  "name": "@christian-slater/theme",
   "version": "1.5.4",
   "scripts": {
-    "start": "slater watch",
-    "build": "slater build",
-    "deploy:development": "slater build && slater sync",
-    "deploy:production": "slater build && slater sync --theme production",
-    "test:start": "slater watch --config test.config.js",
-    "test:build": "slater build --config test.config.js",
-    "test:deploy": "slater build --config test.config.js && slater sync --config test.config.js",
-    "test:deploy:production": "slater build --config test.config.js && slater sync --theme production --config test.config.js"
+    "start": "christian-slater watch",
+    "build": "christian-slater build",
+    "deploy:development": "christian-slater build && christian-slater sync",
+    "deploy:production": "christian-slater build && christian-slater sync --theme production",
+    "test:start": "christian-slater watch --config test.config.js",
+    "test:build": "christian-slater build --config test.config.js",
+    "test:deploy": "christian-slater build --config test.config.js && christian-slater sync --config test.config.js",
+    "test:deploy:production": "christian-slater build --config test.config.js && christian-slater sync --theme production --config test.config.js"
   },
   "author": "https://thecouch.nyc",
   "license": "MIT",
-  "homepage": "https://github.com/the-couch/slater#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "devDependencies": {
-    "slater": "^1.5.4"
+    "christian-slater": "^1.5.4"
   },
   "dependencies": {
     "choozy": "0.0.3",
@@ -27,5 +27,5 @@
     "svbstrate": "^4.1.1",
     "unfetch": "^4.1.0"
   },
-  "gitHead": "55e6f2115623a622a6a8001ebed44398c196b080"
+  "gitHead": "2ce215f7e554202fa82191b96c155ce2bc407022"
 }

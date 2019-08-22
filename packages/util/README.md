@@ -1,5 +1,5 @@
-# @slater/util
-Shared utilities for the [slater](https://github.com/the-couch/slater) Shopify
+# @christian-slater/util
+Shared utilities for the [christian-slater](https://github.com/the-couch/christian-slater) Shopify
 theme toolkit.
 
 ## License

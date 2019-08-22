@@ -6,7 +6,7 @@
   <section class='account-addresses outer'>
     {% include 'account-titles' with title: 'Addresses' %}
     <div class='container--s mha'>
-      <button class='account-addresses__new button--reset link--underline caps track medium cg mb1' onclick='slater.toggleNewForm()'>Create new address</button>
+      <button class='account-addresses__new button--reset link--underline caps track medium cg mb1' onclick='christian-slater.toggleNewForm()'>Create new address</button>
 
       {%
       include 'account-address-form' with
@@ -55,7 +55,7 @@
 </div>
 
 <script>
-  window.slater = {
+  window.christian-slater = {
     toggleForm: function(id) {
       var el = document.getElementById('form_'+id)
       el.style.display = el.style.display == 'none' ? '' : 'none'

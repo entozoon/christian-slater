@@ -1,18 +1,18 @@
 {
-  "name": "@slater/compiler",
+  "name": "@christian-slater/compiler",
   "version": "1.5.4",
-  "description": "Compiler abstraction for slater.",
+  "description": "Compiler abstraction for christian-slater.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/the-couch/slater.git"
+    "url": "git+ssh://git@github.com/the-couch/christian-slater.git"
   },
   "author": "estrattonbailey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/the-couch/slater/issues"
+    "url": "https://github.com/the-couch/christian-slater/issues"
   },
-  "homepage": "https://github.com/the-couch/slater#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -47,5 +47,5 @@
     "style-loader": "^0.20.3",
     "webpack": "^4.33.0"
   },
-  "gitHead": "55e6f2115623a622a6a8001ebed44398c196b080"
+  "gitHead": "2ce215f7e554202fa82191b96c155ce2bc407022"
 }

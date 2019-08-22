@@ -1,6 +1,6 @@
 import sliced from 'sliced'
 
-window.slater = Object.assign(window.slater || {}, {
+window.christian-slater = Object.assign(window.christian-slater || {}, {
   qs (q, ctx) {
     return (ctx || document).querySelector(q)
   },

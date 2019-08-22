@@ -1,13 +1,13 @@
-# @slater/sync
+# @christian-slater/sync
 Sync files between your local machine and a remote Shopify theme.
 
 ## Install
 ```bash
-npm i @slater/sync -g
+npm i @christian-slater/sync -g
 ```
 
 ## Getting Started
-Create a `slater.config.js` file, and define one or more themes:
+Create a `christian-slater.config.js` file, and define one or more themes:
 
 ```javascript
 module.exports = {
@@ -25,9 +25,9 @@ module.exports = {
 
 Then, use the CLI to `sync` or `unsync` files or directories:
 ```bash
-slater-sync sync snippets/header.liquid # file
-slater-sync sync snippets/ # directory
-slater-sync unsync snippets/header.liquid
+christian-slater-sync sync snippets/header.liquid # file
+christian-slater-sync sync snippets/ # directory
+christian-slater-sync unsync snippets/header.liquid
 ```
 
 ## Commands
@@ -35,23 +35,23 @@ slater-sync unsync snippets/header.liquid
 #### `sync`
 Sync a file or directory.
 ```bash
-slater-sync sync snippets/header.liquid # file
-slater-sync sync snippets/ # directory
+christian-slater-sync sync snippets/header.liquid # file
+christian-slater-sync sync snippets/ # directory
 ```
 
 #### `unsync`
 Un-sync a file or directory.
 ```bash
-slater-sync unsync snippets/header.liquid # file
-slater-sync unsync snippets/ # directory
+christian-slater-sync unsync snippets/header.liquid # file
+christian-slater-sync unsync snippets/ # directory
 ```
 
 ## API
-`@slater/sync` can also be used in node, as it is in
-[@slater/cli](https://github.com/the-couch/slater/tree/master/packages/cli).
+`@christian-slater/sync` can also be used in node, as it is in
+[@christian-slater/cli](https://github.com/the-couch/christian-slater/tree/master/packages/cli).
 
 ```javascript
-const sync = require('@slater/sync')
+const sync = require('@christian-slater/sync')
 
 const theme = sync({
   id: '12345...',

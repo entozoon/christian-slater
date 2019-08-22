@@ -252,7 +252,7 @@ _router2.default.on('afterRender', function () {
   }, 0);
 });
 
-console.groupCollapsed('Slater credits 🍝  pew');
+console.groupCollapsed('christian-slater credits 🍝  pew');
 console.log('Development by The Couch https://thecouch.nyc');
 console.groupEnd();
 
@@ -322,16 +322,16 @@ exports.default = router;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//      
+//
 // An event handler can take an optional event argument
 // and should not return a value
-                                          
+
 // An array of all currently registered event handlers for a type
-                                            
+
 // A map of event types and their corresponding event handlers.
-                        
-                                   
-  
+
+
+
 
 /** Mitt: Tiny (~200b) functional event emitter / pubsub.
  *  @name mitt
@@ -2459,11 +2459,11 @@ var map = {
 	"./slate/sections.js": 19,
 	"./slate/utils.js": 20,
 	"./slate/variants.js": 21,
-	"./slater/cart.js": 0,
-	"./slater/currency.js": 6,
-	"./slater/images.js": 8,
-	"./slater/product-selector.js": 5,
-	"./slater/utils.js": 7,
+	"./christian-slater/cart.js": 0,
+	"./christian-slater/currency.js": 6,
+	"./christian-slater/images.js": 8,
+	"./christian-slater/product-selector.js": 5,
+	"./christian-slater/utils.js": 7,
 	"./templates/customers-addresses.js": 22,
 	"./templates/customers-login.js": 23,
 	"./util/theme-provider.js": 24
@@ -2586,11 +2586,11 @@ var map = {
 	"./slate/sections.js": 19,
 	"./slate/utils.js": 20,
 	"./slate/variants.js": 21,
-	"./slater/cart.js": 0,
-	"./slater/currency.js": 6,
-	"./slater/images.js": 8,
-	"./slater/product-selector.js": 5,
-	"./slater/utils.js": 7,
+	"./christian-slater/cart.js": 0,
+	"./christian-slater/currency.js": 6,
+	"./christian-slater/images.js": 8,
+	"./christian-slater/product-selector.js": 5,
+	"./christian-slater/utils.js": 7,
 	"./templates/customers-addresses.js": 22,
 	"./templates/customers-login.js": 23,
 	"./util/theme-provider.js": 24

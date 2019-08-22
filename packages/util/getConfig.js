@@ -9,13 +9,13 @@ const exit = require('exit')
 const abs = require('./abs.js')
 const fixPathSeparators = require("./fixPathSeparators.js")
 const logger = require('./logger.js')
-const log = logger('slater')
+const log = logger('christian-slater')
 
 module.exports = function getConfig (options) {
-  const configpath = abs(options.config || 'slater.config.js')
+  const configpath = abs(options.config || 'christian-slater.config.js')
 
   if (!fs.existsSync(configpath)) {
-    log.error(`looks like your config file (${options.config || 'slater.config.js'}) is missing`)
+    log.error(`looks like your config file (${options.config || 'christian-slater.config.js'}) is missing`)
     exit()
   }
 

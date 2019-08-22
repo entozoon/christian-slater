@@ -1,7 +1,7 @@
 {
   "name": "christian-slater",
   "version": "0.8.0",
-  "description": "the slater monorepo",
+  "description": "the christian-slater monorepo",
   "scripts": {
     "publish": "NPM_CONFIG_OTP= ./node_modules/.bin/lerna publish",
     "bootstrap": "lerna bootstrap",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/the-couch/slater.git"
+    "url": "git+ssh://git@github.com/the-couch/christian-slater.git"
   },
   "author": "https://thecouch.nyc",
   "license": "MIT",
-  "homepage": "https://github.com/the-couch/slater#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "devDependencies": {
     "all-contributors-cli": "^6.4.0",
     "lerna": "^3.10.6"

@@ -76,7 +76,7 @@ module.exports = conf => {
         cert: fs.readFileSync(path.join(__dirname, '/lib/cert/server.crt'))
       }, (req, res) => {
         res.writeHead(200, { 'Content-Type': 'text/plain' })
-        res.write('slater running')
+        res.write('christian-slater running')
         res.end()
       }).listen(port)
 
