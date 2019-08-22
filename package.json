@@ -1,7 +1,7 @@
 {
   "name": "christian-slater",
   "version": "0.8.0",
-  "description": "the christian-slater monorepo",
+  "description": "the christian-slater monorepo.",
   "scripts": {
     "publish": "NPM_CONFIG_OTP= ./node_modules/.bin/lerna publish",
     "bootstrap": "lerna bootstrap",
