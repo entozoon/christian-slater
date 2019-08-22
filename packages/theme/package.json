@@ -1,6 +1,6 @@
 {
   "name": "@dwadwadwa/theme",
-  "version": "2.0.2-alpha.0+1fa0168",
+  "version": "2.0.2-alpha.2+b73281d",
   "scripts": {
     "start": "dwadwadwa watch",
     "build": "dwadwadwa build",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/dwadwadwa#readme",
   "devDependencies": {
-    "dwadwadwa": "^2.0.2-alpha.0+1fa0168"
+    "dwadwadwa": "^2.0.2-alpha.2+b73281d"
   },
   "dependencies": {
     "choozy": "0.0.3",
@@ -27,5 +27,5 @@
     "svbstrate": "^4.1.1",
     "unfetch": "^4.1.0"
   },
-  "gitHead": "1fa01688c91a413133304e4d39d09ae93108f46f"
+  "gitHead": "b73281d6b1210fe5a76d2d7e3af8e12980f7416e"
 }
