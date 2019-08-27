@@ -8,7 +8,7 @@ Commit stuff, then run:
 
     lerna publish
 
-    publish.bat
+    publish.bat or.. sometimes at least, the commands within. from a powershell
 
 .
 
