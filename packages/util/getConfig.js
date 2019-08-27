@@ -9,7 +9,7 @@ const exit = require('exit')
 const abs = require('./abs.js')
 const fixPathSeparators = require("./fixPathSeparators.js")
 const logger = require('./logger.js')
-const log = logger('dwadwadwa')
+const log = logger('christian-slater')
 
 module.exports = function getConfig (options) {
   const configpath = abs(options.config || 'slater.config.js')

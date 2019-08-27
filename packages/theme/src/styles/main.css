@@ -22,21 +22,21 @@
 @import 'templates/collection.css';
 
 /**
- * dwadwadwa demo
+ * christian-slater demo
  *
  * you might want to delete these
  *
  * or not, up to you
  */
-@import 'dwadwadwa/code.css';
-@import 'dwadwadwa/typography.css';
-@import 'dwadwadwa/header.css';
-@import 'dwadwadwa/footer.css';
-@import 'dwadwadwa/welcome.css';
-@import 'dwadwadwa/accounts.css';
-@import 'dwadwadwa/product.css';
-@import 'dwadwadwa/cart-drawer.css';
-@import 'dwadwadwa/inputs.css';
+@import 'christian-slater/code.css';
+@import 'christian-slater/typography.css';
+@import 'christian-slater/header.css';
+@import 'christian-slater/footer.css';
+@import 'christian-slater/welcome.css';
+@import 'christian-slater/accounts.css';
+@import 'christian-slater/product.css';
+@import 'christian-slater/cart-drawer.css';
+@import 'christian-slater/inputs.css';
 
 #preview-bar-iframe, .none {
   display: none !important;

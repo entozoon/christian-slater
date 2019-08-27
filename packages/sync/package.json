@@ -1,10 +1,10 @@
 {
-  "name": "@dwadwadwa/sync",
-  "version": "2.1.4",
+  "name": "@christian-slater/sync",
+  "version": "2.1.5-alpha.0+99b1ab9",
   "description": "shopify theme deployment utility",
   "main": "index.js",
   "bin": {
-    "dwadwadwa-sync": "./cli.js"
+    "christian-slater-sync": "./cli.js"
   },
   "scripts": {
     "publish": "npm publish --access public"
@@ -16,9 +16,9 @@
   ],
   "author": "https://thecouch.nyc",
   "license": "MIT",
-  "homepage": "https://github.com/the-couch/dwadwadwa#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "dependencies": {
-    "@dwadwadwa/util": "^2.1.4",
+    "@christian-slater/util": "^2.1.5-alpha.0+99b1ab9",
     "ansi-colors": "^3.0.4",
     "exit": "^0.1.2",
     "fs-extra": "^7.0.1",
@@ -31,5 +31,5 @@
     "yaml": "^1.2.1",
     "zip-folder": "^1.0.0"
   },
-  "gitHead": "8f9b7a25c3aed6455dd102242457971a5fb0a0c4"
+  "gitHead": "99b1ab9b4a1a397372963936d49d50316c1dfcfd"
 }

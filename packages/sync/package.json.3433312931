@@ -1,10 +1,10 @@
 {
-	"name": "@dwadwadwa/sync",
+	"name": "@christian-slater/sync",
 	"version": "1.5.5",
 	"description": "shopify theme deployment utility",
 	"main": "index.js",
 	"bin": {
-		"dwadwadwa-sync": "./cli.js"
+		"christian-slater-sync": "./cli.js"
 	},
 	"keywords": [
 		"shopify",
@@ -13,7 +13,7 @@
 	],
 	"author": "https://thecouch.nyc",
 	"license": "MIT",
-	"homepage": "https://github.com/the-couch/dwadwadwa#readme",
+	"homepage": "https://github.com/the-couch/christian-slater#readme",
 	"dependencies": {
 		"ansi-colors": "^3.0.4",
 		"exit": "^0.1.2",

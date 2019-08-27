@@ -1,10 +1,10 @@
 {
-  "name": "dwadwadwa",
-  "version": "2.1.4",
+  "name": "christian-slater",
+  "version": "2.1.5-alpha.0+99b1ab9",
   "description": "A Shopify development toolkit",
   "main": "index.js",
   "bin": {
-    "dwadwadwa": "./cli.js"
+    "christian-slater": "./cli.js"
   },
   "keywords": [
     "shopify",
@@ -13,11 +13,11 @@
   ],
   "author": "https://thecouch.nyc",
   "license": "MIT",
-  "homepage": "https://github.com/the-couch/dwadwadwa#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "dependencies": {
-    "@dwadwadwa/compiler": "^2.1.4",
-    "@dwadwadwa/sync": "^2.1.4",
-    "@dwadwadwa/util": "^2.1.4",
+    "@christian-slater/compiler": "^2.1.5-alpha.0+99b1ab9",
+    "@christian-slater/sync": "^2.1.5-alpha.0+99b1ab9",
+    "@christian-slater/util": "^2.1.5-alpha.0+99b1ab9",
     "@friendsof/spaghetti": "^1.4.0",
     "ansi-colors": "^3.0.4",
     "anymatch": "^2.0.0",
@@ -42,5 +42,5 @@
     "webpack": "^4.26.0",
     "yaml": "^1.0.0-rc.7"
   },
-  "gitHead": "8f9b7a25c3aed6455dd102242457971a5fb0a0c4"
+  "gitHead": "99b1ab9b4a1a397372963936d49d50316c1dfcfd"
 }

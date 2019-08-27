@@ -1,4 +1,4 @@
-# dwadwadwa
+# christian-slater
 A Shopify development toolkit.
 
 <br />
@@ -13,7 +13,7 @@ A Shopify development toolkit.
 
 ### Install
 ```bash
-npm i dwadwadwa -g
+npm i christian-slater -g
 ```
 
 ### Features
@@ -39,15 +39,15 @@ npm i dwadwadwa -g
 - [Deployment](#deployment)
 - [Live Reloading](#live-reloading--https)
 - [Guides and Tutorials](#guides)
-- [dwadwadwa in the Wild](#in-the-wild)
+- [christian-slater in the Wild](#in-the-wild)
 - [Contributors](#contributors)
 - [License](#license)
 
 ## Quick Start
-The easist way to get started with dwadwadwa is `dwadwadwa init`. `init` outputs a
+The easist way to get started with christian-slater is `christian-slater init`. `init` outputs a
 default folder structure into the directory of your choice.
 ```bash
-dwadwadwa init <root>
+christian-slater init <root>
 ```
 
 Don't forget to install the dependencies.
@@ -74,18 +74,18 @@ module.exports = {
 
 Then, from the project root:
 ```bash
-dwadwadwa watch
+christian-slater watch
 ```
 
-And that's it! dwadwadwa will watch your local theme for changes and sync them to
+And that's it! christian-slater will watch your local theme for changes and sync them to
 your remote site when they update 🎉.
 
 ## Usage
-dwadwadwa makes some assumptions out of the box, but it can be easily customized to
+christian-slater makes some assumptions out of the box, but it can be easily customized to
 fit most existing projects.
 
 #### Themes
-dwadwadwa projects require themes to be defined in the
+christian-slater projects require themes to be defined in the
 `slater.config.js`.
 
 By default it looks for a theme called `development`:
@@ -110,7 +110,7 @@ module.exports = {
 
 Just be sure to specify your theme name on the CLI:
 ```bash
-dwadwadwa build --theme dev
+christian-slater build --theme dev
 ```
 
 You can also define as many themes as you like. Use these for a production
@@ -128,7 +128,7 @@ module.exports = {
 
 #### Directory Structure
 All theme files should be located within a single source directory. By default,
-dwadwadwa looks for a `/src` directory in your project root.
+christian-slater looks for a `/src` directory in your project root.
 
 To adjust this, specify an `in` prop on your config:
 ```javascript
@@ -148,7 +148,7 @@ module.exports = {
 ```
 
 #### Assets
-dwadwadwa uses Webpack internally to compile a single JavaScript entry point. By
+christian-slater uses Webpack internally to compile a single JavaScript entry point. By
 default, it looks for `/src/scripts/index.js`.
 
 You can specify a different entry point using the `assets` object on your
@@ -161,7 +161,7 @@ module.exports = {
 }
 ```
 
-dwadwadwa uses PostCSS by default. It's configured to allow SASS-like nesting, in
+christian-slater uses PostCSS by default. It's configured to allow SASS-like nesting, in
 addition to all modern CSS goodies.
 
 To compile your styles, simply import your root stylesheet into your JavaScript
@@ -184,7 +184,7 @@ module.exports = {
 ```
 
 #### Alias & Env
-To make your JavaScript a little easier to work with, dwadwadwa supports alias
+To make your JavaScript a little easier to work with, christian-slater supports alias
 definitions and environment variables.
 
 ```javascript
@@ -218,23 +218,23 @@ containing your JavaScript entry point.
 #### `watch`
 Watches for file changes and syncs updates to your specified theme.
 ```bash
-dwadwadwa watch
+christian-slater watch
 ```
 
 #### `build`
 Compiles assets and copies all files from the `config.in` directory to the
 `config.out` directory.
 ```bash
-dwadwadwa build
+christian-slater build
 ```
 
 #### `sync`
 Sync local files or directories to your remote theme. A direct interface to
-[@dwadwadwa/sync], which `@dwadwadwa/cli` uses internally.
+[@christian-slater/sync], which `@christian-slater/cli` uses internally.
 ```bash
-dwadwadwa sync build/snippets/hero.liquid # file
-dwadwadwa sync build/snippets # directory
-dwadwadwa sync # defaults to config.out
+christian-slater sync build/snippets/hero.liquid # file
+christian-slater sync build/snippets # directory
+christian-slater sync # defaults to config.out
 ```
 
 #### Options
@@ -246,25 +246,25 @@ Any of the core commands can be combined with the following options:
 ## Deployment
 To deploy a theme, combine the above commands as needed:
 ```
-dwadwadwa build && dwadwadwa sync --theme production
+christian-slater build && christian-slater sync --theme production
 ```
 
 ## Live-reloading & HTTPS
-`dwadwadwa` uses an local SSL certification to correspond with Shopify's HTTPS
+`christian-slater` uses an local SSL certification to correspond with Shopify's HTTPS
 hosted themes. To take advantage of live-reloading, you need to create a
-security exception for the `dwadwadwa` cert (this is safe). To do this, load
+security exception for the `christian-slater` cert (this is safe). To do this, load
 [https://localhost:3000](https://localhost:3000) in your browser, and follow
 the instructions for adding an exception. If it works, you should see this in
 your browser window:
 ```
-dwadwadwa running
+christian-slater running
 ```
 
 ### Guides
-[Adding dwadwadwa to any existing Theme](https://medium.com/the-couch/getting-started-with-dwadwadwa-bundling-and-deployment-with-any-existing-shopify-theme-d994a17f590f)
+[Adding christian-slater to any existing Theme](https://medium.com/the-couch/getting-started-with-christian-slater-bundling-and-deployment-with-any-existing-shopify-theme-d994a17f590f)
 
 ## In the Wild
-The following sites were built using some version of dwadwadwa. Send us a PR to add
+The following sites were built using some version of christian-slater. Send us a PR to add
 to this list!
 - [Wool & Oak](https://www.woolandoak.com)
 - [Blume](https://www.meetblume.com)

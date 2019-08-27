@@ -1,18 +1,18 @@
 {
-  "name": "@dwadwadwa/compiler",
-  "version": "2.1.4",
-  "description": "Compiler abstraction for dwadwadwa.",
+  "name": "@christian-slater/compiler",
+  "version": "2.1.5-alpha.0+99b1ab9",
+  "description": "Compiler abstraction for christian-slater.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/the-couch/dwadwadwa.git"
+    "url": "git+ssh://git@github.com/the-couch/christian-slater.git"
   },
   "author": "estrattonbailey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/the-couch/dwadwadwa/issues"
+    "url": "https://github.com/the-couch/christian-slater/issues"
   },
-  "homepage": "https://github.com/the-couch/dwadwadwa#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -47,5 +47,5 @@
     "style-loader": "^0.20.3",
     "webpack": "^4.33.0"
   },
-  "gitHead": "8f9b7a25c3aed6455dd102242457971a5fb0a0c4"
+  "gitHead": "99b1ab9b4a1a397372963936d49d50316c1dfcfd"
 }

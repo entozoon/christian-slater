@@ -3,7 +3,7 @@ module.exports = function clientReloader (port) {
     (function (global) {
       try {
         var ls = global.localStorage
-        var scrollPos = ls.getItem('dwadwadwa-scroll')
+        var scrollPos = ls.getItem('christian-slater-scroll')
 
         if (scrollPos) global.scrollTo(0, scrollPos)
 
@@ -14,9 +14,9 @@ module.exports = function clientReloader (port) {
           var socket = io('https://localhost:${port}', {
             reconnectionAttempts: 1
           })
-          socket.on('connect', () => console.log('dwadwadwa connected'))
+          socket.on('connect', () => console.log('christian-slater connected'))
           socket.on('refresh', () => {
-            ls.setItem('dwadwadwa-scroll', global.scrollY)
+            ls.setItem('christian-slater-scroll', global.scrollY)
             global.location.reload()
           })
           socket.on('disconnect', () => {
@@ -24,9 +24,9 @@ module.exports = function clientReloader (port) {
           })
           socket.on('reconnect_failed', e => {
             if (disconnected) return
-            console.group("dwadwadwa - %cconnection to server at ${port} failed", "color: red")
+            console.group("christian-slater - %cconnection to server at ${port} failed", "color: red")
             console.info("try visiting https://localhost:${port} and creating a security exception")
-            console.log("for more info see https://github.com/the-couch/dwadwadwa#live-reloading--https")
+            console.log("for more info see https://github.com/the-couch/christian-slater#live-reloading--https")
             console.groupEnd()
           })
         }

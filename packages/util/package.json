@@ -1,12 +1,12 @@
 {
-  "name": "@dwadwadwa/util",
-  "version": "2.1.4",
+  "name": "@christian-slater/util",
+  "version": "2.1.5-alpha.0+99b1ab9",
   "description": "shopify theme management toolkit",
   "main": "index.js",
   "scripts": {},
   "author": "https://thecouch.nyc",
   "license": "MIT",
-  "homepage": "https://github.com/the-couch/dwadwadwa#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "dependencies": {
     "ansi-colors": "^3.0.4",
     "exit": "^0.1.2",
@@ -18,5 +18,5 @@
     "neat-log": "^3.1.0",
     "yaml": "^1.3.1"
   },
-  "gitHead": "8f9b7a25c3aed6455dd102242457971a5fb0a0c4"
+  "gitHead": "99b1ab9b4a1a397372963936d49d50316c1dfcfd"
 }

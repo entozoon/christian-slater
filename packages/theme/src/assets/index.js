@@ -252,7 +252,7 @@ _router2.default.on('afterRender', function () {
   }, 0);
 });
 
-console.groupCollapsed('dwadwadwa credits 🍝  pew');
+console.groupCollapsed('christian-slater credits 🍝  pew');
 console.log('Development by The Couch https://thecouch.nyc');
 console.groupEnd();
 
@@ -2459,11 +2459,11 @@ var map = {
 	"./slate/sections.js": 19,
 	"./slate/utils.js": 20,
 	"./slate/variants.js": 21,
-	"./dwadwadwa/cart.js": 0,
-	"./dwadwadwa/currency.js": 6,
-	"./dwadwadwa/images.js": 8,
-	"./dwadwadwa/product-selector.js": 5,
-	"./dwadwadwa/utils.js": 7,
+	"./christian-slater/cart.js": 0,
+	"./christian-slater/currency.js": 6,
+	"./christian-slater/images.js": 8,
+	"./christian-slater/product-selector.js": 5,
+	"./christian-slater/utils.js": 7,
 	"./templates/customers-addresses.js": 22,
 	"./templates/customers-login.js": 23,
 	"./util/theme-provider.js": 24
@@ -2586,11 +2586,11 @@ var map = {
 	"./slate/sections.js": 19,
 	"./slate/utils.js": 20,
 	"./slate/variants.js": 21,
-	"./dwadwadwa/cart.js": 0,
-	"./dwadwadwa/currency.js": 6,
-	"./dwadwadwa/images.js": 8,
-	"./dwadwadwa/product-selector.js": 5,
-	"./dwadwadwa/utils.js": 7,
+	"./christian-slater/cart.js": 0,
+	"./christian-slater/currency.js": 6,
+	"./christian-slater/images.js": 8,
+	"./christian-slater/product-selector.js": 5,
+	"./christian-slater/utils.js": 7,
 	"./templates/customers-addresses.js": 22,
 	"./templates/customers-login.js": 23,
 	"./util/theme-provider.js": 24

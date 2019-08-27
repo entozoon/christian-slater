@@ -1,7 +1,7 @@
 {
-  "name": "dwadwadwa",
+  "name": "christian-slater",
   "version": "2.0.0",
-  "description": "the dwadwadwa monorepo.",
+  "description": "the christian-slater monorepo.",
   "scripts": {
     "publish": "lerna publish --canary",
     "bootstrap": "lerna bootstrap",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/entozoon/dwadwadwa.git"
+    "url": "git+ssh://git@github.com/entozoon/christian-slater.git"
   },
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/entozoon/dwadwadwa#readme",
+  "homepage": "https://github.com/entozoon/christian-slater#readme",
   "devDependencies": {
     "all-contributors-cli": "^6.4.0",
     "lerna": "^3.16.4"

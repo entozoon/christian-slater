@@ -1,21 +1,21 @@
 {
-  "name": "@dwadwadwa/theme",
-  "version": "2.1.4",
+  "name": "@christian-slater/theme",
+  "version": "2.1.5-alpha.0+99b1ab9",
   "scripts": {
-    "start": "dwadwadwa watch",
-    "build": "dwadwadwa build",
-    "deploy:development": "dwadwadwa build && dwadwadwa sync",
-    "deploy:production": "dwadwadwa build && dwadwadwa sync --theme production",
-    "test:start": "dwadwadwa watch --config test.config.js",
-    "test:build": "dwadwadwa build --config test.config.js",
-    "test:deploy": "dwadwadwa build --config test.config.js && dwadwadwa sync --config test.config.js",
-    "test:deploy:production": "dwadwadwa build --config test.config.js && dwadwadwa sync --theme production --config test.config.js"
+    "start": "christian-slater watch",
+    "build": "christian-slater build",
+    "deploy:development": "christian-slater build && christian-slater sync",
+    "deploy:production": "christian-slater build && christian-slater sync --theme production",
+    "test:start": "christian-slater watch --config test.config.js",
+    "test:build": "christian-slater build --config test.config.js",
+    "test:deploy": "christian-slater build --config test.config.js && christian-slater sync --config test.config.js",
+    "test:deploy:production": "christian-slater build --config test.config.js && christian-slater sync --theme production --config test.config.js"
   },
   "author": "https://thecouch.nyc",
   "license": "MIT",
-  "homepage": "https://github.com/the-couch/dwadwadwa#readme",
+  "homepage": "https://github.com/the-couch/christian-slater#readme",
   "devDependencies": {
-    "dwadwadwa": "^2.1.4"
+    "christian-slater": "^2.1.5-alpha.0+99b1ab9"
   },
   "dependencies": {
     "choozy": "0.0.3",
@@ -27,5 +27,5 @@
     "svbstrate": "^4.1.1",
     "unfetch": "^4.1.0"
   },
-  "gitHead": "8f9b7a25c3aed6455dd102242457971a5fb0a0c4"
+  "gitHead": "99b1ab9b4a1a397372963936d49d50316c1dfcfd"
 }

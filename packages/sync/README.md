@@ -1,9 +1,9 @@
-# @dwadwadwa/sync
+# @christian-slater/sync
 Sync files between your local machine and a remote Shopify theme.
 
 ## Install
 ```bash
-npm i @dwadwadwa/sync -g
+npm i @christian-slater/sync -g
 ```
 
 ## Getting Started
@@ -25,9 +25,9 @@ module.exports = {
 
 Then, use the CLI to `sync` or `unsync` files or directories:
 ```bash
-dwadwadwa-sync sync snippets/header.liquid # file
-dwadwadwa-sync sync snippets/ # directory
-dwadwadwa-sync unsync snippets/header.liquid
+christian-slater-sync sync snippets/header.liquid # file
+christian-slater-sync sync snippets/ # directory
+christian-slater-sync unsync snippets/header.liquid
 ```
 
 ## Commands
@@ -35,23 +35,23 @@ dwadwadwa-sync unsync snippets/header.liquid
 #### `sync`
 Sync a file or directory.
 ```bash
-dwadwadwa-sync sync snippets/header.liquid # file
-dwadwadwa-sync sync snippets/ # directory
+christian-slater-sync sync snippets/header.liquid # file
+christian-slater-sync sync snippets/ # directory
 ```
 
 #### `unsync`
 Un-sync a file or directory.
 ```bash
-dwadwadwa-sync unsync snippets/header.liquid # file
-dwadwadwa-sync unsync snippets/ # directory
+christian-slater-sync unsync snippets/header.liquid # file
+christian-slater-sync unsync snippets/ # directory
 ```
 
 ## API
-`@dwadwadwa/sync` can also be used in node, as it is in
-[@dwadwadwa/cli](https://github.com/the-couch/dwadwadwa/tree/master/packages/cli).
+`@christian-slater/sync` can also be used in node, as it is in
+[@christian-slater/cli](https://github.com/the-couch/christian-slater/tree/master/packages/cli).
 
 ```javascript
-const sync = require('@dwadwadwa/sync')
+const sync = require('@christian-slater/sync')
 
 const theme = sync({
   id: '12345...',
