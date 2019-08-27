@@ -1,6 +1,6 @@
 {
   "name": "@christian-slater/util",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "shopify theme management toolkit",
   "main": "index.js",
   "scripts": {},
@@ -18,5 +18,5 @@
     "neat-log": "^3.1.0",
     "yaml": "^1.3.1"
   },
-  "gitHead": "0fcf996a3a8934b907fc41f2175986b36bb9d683"
+  "gitHead": "3463098f535ce525990612453080f85e63833063"
 }

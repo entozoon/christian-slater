@@ -1,6 +1,6 @@
 {
   "name": "@christian-slater/sync",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "shopify theme deployment utility",
   "main": "index.js",
   "bin": {
@@ -18,7 +18,7 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/christian-slater#readme",
   "dependencies": {
-    "@christian-slater/util": "^3.1.1",
+    "@christian-slater/util": "^3.1.2",
     "ansi-colors": "^3.0.4",
     "exit": "^0.1.2",
     "fs-extra": "^7.0.1",
@@ -31,5 +31,5 @@
     "yaml": "^1.2.1",
     "zip-folder": "^1.0.0"
   },
-  "gitHead": "0fcf996a3a8934b907fc41f2175986b36bb9d683"
+  "gitHead": "3463098f535ce525990612453080f85e63833063"
 }

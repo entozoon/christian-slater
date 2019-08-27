@@ -1,6 +1,6 @@
 {
   "name": "christian-slater",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "A Shopify development toolkit",
   "main": "index.js",
   "bin": {
@@ -15,9 +15,9 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/christian-slater#readme",
   "dependencies": {
-    "@christian-slater/compiler": "^3.1.1",
-    "@christian-slater/sync": "^3.1.1",
-    "@christian-slater/util": "^3.1.1",
+    "@christian-slater/compiler": "^3.1.2",
+    "@christian-slater/sync": "^3.1.2",
+    "@christian-slater/util": "^3.1.2",
     "@friendsof/spaghetti": "^1.4.0",
     "ansi-colors": "^3.0.4",
     "anymatch": "^2.0.0",
@@ -42,5 +42,5 @@
     "webpack": "^4.26.0",
     "yaml": "^1.0.0-rc.7"
   },
-  "gitHead": "0fcf996a3a8934b907fc41f2175986b36bb9d683"
+  "gitHead": "3463098f535ce525990612453080f85e63833063"
 }
