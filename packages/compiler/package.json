@@ -1,6 +1,6 @@
 {
   "name": "@dwadwadwa/compiler",
-  "version": "2.1.1",
+  "version": "2.1.2-alpha.0+6d7a16d",
   "description": "Compiler abstraction for dwadwadwa.",
   "main": "index.js",
   "repository": {
@@ -47,5 +47,5 @@
     "style-loader": "^0.20.3",
     "webpack": "^4.33.0"
   },
-  "gitHead": "38276300435593d5b98fc6d655b2013dfbdd1330"
+  "gitHead": "6d7a16df6f7a247f6c7189763fa3c419867002e3"
 }
