@@ -6,7 +6,6 @@ This is just a hamfisted test of PRs for Slater
 
 Commit stuff, then run:
 
-    npm run publish
+    lerna publish
 
-
-    lerna publish --yes --cd-version=patch
+    publish.bat

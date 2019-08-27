@@ -1,0 +1,11 @@
+@echo off
+cd packages/compiler
+npm publish
+cd ../packages/sync
+npm publish
+cd ../packages/theme
+npm publish
+cd ../packages/util
+npm publish
+cd ../packages/christian-slater
+npm publish
