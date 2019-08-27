@@ -1,6 +1,6 @@
 {
   "name": "dwadwadwa",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A Shopify development toolkit",
   "main": "index.js",
   "bin": {
@@ -15,9 +15,9 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/dwadwadwa#readme",
   "dependencies": {
-    "@dwadwadwa/compiler": "^2.1.0",
-    "@dwadwadwa/sync": "^2.1.0",
-    "@dwadwadwa/util": "^2.1.0",
+    "@dwadwadwa/compiler": "^2.1.1",
+    "@dwadwadwa/sync": "^2.1.1",
+    "@dwadwadwa/util": "^2.1.1",
     "@friendsof/spaghetti": "^1.4.0",
     "ansi-colors": "^3.0.4",
     "anymatch": "^2.0.0",
