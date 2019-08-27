@@ -1,6 +1,6 @@
 {
   "name": "@dwadwadwa/theme",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "scripts": {
     "start": "dwadwadwa watch",
     "build": "dwadwadwa build",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/dwadwadwa#readme",
   "devDependencies": {
-    "dwadwadwa": "^2.1.3"
+    "dwadwadwa": "^2.1.4"
   },
   "dependencies": {
     "choozy": "0.0.3",

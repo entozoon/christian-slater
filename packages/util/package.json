@@ -1,6 +1,6 @@
 {
   "name": "@dwadwadwa/util",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "shopify theme management toolkit",
   "main": "index.js",
   "scripts": {},
