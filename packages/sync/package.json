@@ -1,6 +1,6 @@
 {
   "name": "@dwadwadwa/sync",
-  "version": "2.1.2-alpha.0+6d7a16d",
+  "version": "2.1.2-alpha.1+9216d15",
   "description": "shopify theme deployment utility",
   "main": "index.js",
   "bin": {
@@ -18,7 +18,7 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/dwadwadwa#readme",
   "dependencies": {
-    "@dwadwadwa/util": "^2.1.2-alpha.0+6d7a16d",
+    "@dwadwadwa/util": "^2.1.2-alpha.1+9216d15",
     "ansi-colors": "^3.0.4",
     "exit": "^0.1.2",
     "fs-extra": "^7.0.1",
@@ -31,5 +31,5 @@
     "yaml": "^1.2.1",
     "zip-folder": "^1.0.0"
   },
-  "gitHead": "6d7a16df6f7a247f6c7189763fa3c419867002e3"
+  "gitHead": "9216d15dc340a492721278bba1e4a228c15d428f"
 }

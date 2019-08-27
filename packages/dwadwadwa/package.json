@@ -1,6 +1,6 @@
 {
   "name": "dwadwadwa",
-  "version": "2.1.2-alpha.0+6d7a16d",
+  "version": "2.1.2-alpha.1+9216d15",
   "description": "A Shopify development toolkit",
   "main": "index.js",
   "bin": {
@@ -15,9 +15,9 @@
   "license": "MIT",
   "homepage": "https://github.com/the-couch/dwadwadwa#readme",
   "dependencies": {
-    "@dwadwadwa/compiler": "^2.1.2-alpha.0+6d7a16d",
-    "@dwadwadwa/sync": "^2.1.2-alpha.0+6d7a16d",
-    "@dwadwadwa/util": "^2.1.2-alpha.0+6d7a16d",
+    "@dwadwadwa/compiler": "^2.1.2-alpha.1+9216d15",
+    "@dwadwadwa/sync": "^2.1.2-alpha.1+9216d15",
+    "@dwadwadwa/util": "^2.1.2-alpha.1+9216d15",
     "@friendsof/spaghetti": "^1.4.0",
     "ansi-colors": "^3.0.4",
     "anymatch": "^2.0.0",
@@ -42,5 +42,5 @@
     "webpack": "^4.26.0",
     "yaml": "^1.0.0-rc.7"
   },
-  "gitHead": "6d7a16df6f7a247f6c7189763fa3c419867002e3"
+  "gitHead": "9216d15dc340a492721278bba1e4a228c15d428f"
 }

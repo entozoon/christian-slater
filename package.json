@@ -1,6 +1,6 @@
 {
   "name": "dwadwadwa",
-  "version": "0.8.1",
+  "version": "2.0.0",
   "description": "the dwadwadwa monorepo.",
   "scripts": {
     "publish": "lerna publish --canary",
