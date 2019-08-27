@@ -1,20 +1,20 @@
 {
   "name": "dwadwadwa",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "the dwadwadwa monorepo.",
   "scripts": {
-    "publish": "NPM_CONFIG_OTP= ./node_modules/.bin/lerna publish",
+    "publish": "lerna publish --canary",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "contributors": "all-contributors generate"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/the-couch/dwadwadwa.git"
+    "url": "git+ssh://git@github.com/entozoon/dwadwadwa.git"
   },
-  "author": "https://thecouch.nyc",
+  "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/the-couch/dwadwadwa#readme",
+  "homepage": "https://github.com/entozoon/dwadwadwa#readme",
   "devDependencies": {
     "all-contributors-cli": "^6.4.0",
     "lerna": "^3.16.4"
