@@ -48,7 +48,7 @@ module.exports = function createConfig(conf, watch) {
   const wc = clone(baseConfig);
 
   wc.entry = {
-    [path.basename(conf.in, ".js")]: path.join(cwd, path.resolve(cwd, conf.in))
+    [path.basename(conf.in, ".js")]: path.resolve(cwd, conf.in)
   };
 
   /**
@@ -60,7 +60,7 @@ module.exports = function createConfig(conf, watch) {
     typeof conf.out === "object"
       ? conf.out
       : {
-          path: path.join(cwd, path.resolve(cwd, conf.out))
+          path: path.resolve(cwd, conf.out)
         }
   );
 
