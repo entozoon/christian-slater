@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "the christian-slater monorepo.",
   "scripts": {
-    "publish": "lerna publish --canary",
+    "publish": "lerna publish --force-publish",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "contributors": "all-contributors generate"
